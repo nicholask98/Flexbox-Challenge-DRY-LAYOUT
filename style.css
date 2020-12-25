@@ -1,0 +1,124 @@
+/* ==============
+       General 
+   ============== */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+/* ==============
+      Reusables 
+   ============== */
+
+.container {
+    margin: 0 auto;
+    max-width: 1128px;
+    height: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sampPhoto {
+    width: 100%;
+}
+
+/* ===============
+    Section Reuse
+   =============== */
+
+section {
+    padding: 5em;
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.25rem;
+    padding-bottom: 1em;
+}
+
+p {
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+/* ===============
+   Section General 
+   =============== */
+
+.row > * + * {
+    padding-left: 5em;
+}
+
+/* ==============
+        Hero 
+   ============== */
+
+.hero {
+    min-height: 660px;
+    background-color: #F3EED9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hero__subHead {
+    font-size: 1.125rem;
+    letter-spacing: .75rem;
+    text-transform: uppercase;
+}
+
+.hero__head {
+    font-size: 3.75rem;
+    max-width: 700px;
+    font-family: "Playfair Display", serif;
+    color: #824936;
+}
+
+/* ==============
+      Section 1 
+   ============== */
+
+.sect1__head {
+    color: #824936;
+    text-align: center;
+}
+
+/* ==============
+      Section 2 
+   ============== */
+
+.sect2 {
+    background-color: #222C2A;
+    color: white;
+}
+
+.sect2__head {
+    color: #F3EED9;
+}
+
+/* ==============
+      Section 3 
+   ============== */
+
+.sect3 {
+    background-color: #824936;
+    color: white;
+}
+
+.sect3__head {
+    color:  #F3EED9;
+}
